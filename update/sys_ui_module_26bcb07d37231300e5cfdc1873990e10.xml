@@ -2,28 +2,28 @@
 <record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Dashboard Filters">33f174f537231300e5cfdc1873990e6d</application>
+        <application display_value="Dashboard Filters">eabcb07d37231300e5cfdc1873990e0e</application>
         <filter/>
         <name>Dashboard Filters</name>
         <order/>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
-        <roles>x_24823_dbf.user</roles>
+        <roles>admin</roles>
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-07-27 12:12:33</sys_created_on>
+        <sys_created_on>2018-07-27 12:59:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b3f174f537231300e5cfdc1873990e6f</sys_id>
+        <sys_id>26bcb07d37231300e5cfdc1873990e10</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Dashboard Filters</sys_name>
         <sys_package display_value="Dashboard Filters" source="x_24823_dbf">7ef1fcb537231300e5cfdc1873990e86</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dashboard Filters">7ef1fcb537231300e5cfdc1873990e86</sys_scope>
-        <sys_update_name>sys_ui_module_b3f174f537231300e5cfdc1873990e6f</sys_update_name>
+        <sys_update_name>sys_ui_module_26bcb07d37231300e5cfdc1873990e10</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-27 12:12:33</sys_updated_on>
-        <table>x_24823_dbf_dashboard_filters</table>
+        <sys_updated_on>2018-07-27 12:59:26</sys_updated_on>
+        <table>x_24823_dbf_filter</table>
         <uncancelable>false</uncancelable>
         <view_name/>
     </sys_ui_module>

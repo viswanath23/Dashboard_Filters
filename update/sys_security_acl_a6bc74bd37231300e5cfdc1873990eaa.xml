@@ -5,22 +5,22 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description>Default access control on x_24823_dbf_dashboard_filters</description>
-        <name>x_24823_dbf_dashboard_filters</name>
+        <description>Default access control on x_24823_dbf_filter</description>
+        <name>x_24823_dbf_filter</name>
         <operation display_value="write">write</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-07-27 12:12:31</sys_created_on>
-        <sys_id>1bf174f537231300e5cfdc1873990e33</sys_id>
+        <sys_created_on>2018-07-27 12:59:27</sys_created_on>
+        <sys_id>a6bc74bd37231300e5cfdc1873990eaa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_24823_dbf_dashboard_filters</sys_name>
+        <sys_name>x_24823_dbf_filter</sys_name>
         <sys_package display_value="Dashboard Filters" source="x_24823_dbf">7ef1fcb537231300e5cfdc1873990e86</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dashboard Filters">7ef1fcb537231300e5cfdc1873990e86</sys_scope>
-        <sys_update_name>sys_security_acl_1bf174f537231300e5cfdc1873990e33</sys_update_name>
+        <sys_update_name>sys_security_acl_a6bc74bd37231300e5cfdc1873990eaa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-27 12:12:31</sys_updated_on>
+        <sys_updated_on>2018-07-27 12:59:27</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

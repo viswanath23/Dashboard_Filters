@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_widgets">
+    <sys_widgets action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Dashboard Filters</name>
+        <order>100</order>
+        <renderer/>
+        <renderer_type>javascript</renderer_type>
+        <roles>itil</roles>
+        <script><![CDATA[function sections() {
+	try{
+		var filters = {};
+			var encQuery = "active=true";
+			var grFilter = new GlideRecord('x_24823_dbf_filter');
+			grFilter.addEncodedQuery(encQuery);
+			grFilter.query();
+			
+			while(grFilter.next()){
+				filters[grFilter.getValue('name')] = {'uiPageName':grFilter.getValue(ui_page)};	
+			}
+			
+			return filters;
+		}catch(err){
+			gs.error("Error occured in Dashboard Filters Widget"+err.toString());
+		}
+	}
+	
+	function render() {
+		var uiPageName = renderer.getPreferences().get("uiPageName");
+		return renderer.getRenderedPage(uiPageName);
+	}
+	
+	function getEditLink() {
+		return "sys_ui_page.do?sysparm_query=name=" + renderer.getPreferences().get("uiPageName");
+	}]]></script>
+        <sys_class_name>sys_widgets</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-27 12:51:09</sys_created_on>
+        <sys_id>323a747937231300e5cfdc1873990ead</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Dashboard Filters</sys_name>
+        <sys_package display_value="Dashboard Filters" source="x_24823_dbf">7ef1fcb537231300e5cfdc1873990e86</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dashboard Filters">7ef1fcb537231300e5cfdc1873990e86</sys_scope>
+        <sys_update_name>sys_widgets_323a747937231300e5cfdc1873990ead</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-27 13:09:23</sys_updated_on>
+        <top_level_category>false</top_level_category>
+    </sys_widgets>
+</record_update>

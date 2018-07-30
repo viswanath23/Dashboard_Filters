@@ -28,7 +28,7 @@
         <sys_updated_on>2018-07-27 12:12:31</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role display_value="x_24823_dbf.user" name="x_24823_dbf.user">8ff134f537231300e5cfdc1873990e62</user_role>
+        <user_role/>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>

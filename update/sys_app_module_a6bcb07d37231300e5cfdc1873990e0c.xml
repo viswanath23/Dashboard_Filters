@@ -14,27 +14,27 @@
         <map_page/>
         <mobile_title>Dashboard Filters</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_24823_dbf_dashboard_filters</name>
+        <name>x_24823_dbf_filter</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_24823_dbf.user</roles>
+        <roles>admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-07-27 12:12:33</sys_created_on>
+        <sys_created_on>2018-07-27 12:59:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2bf174f537231300e5cfdc1873990e6a</sys_id>
+        <sys_id>a6bcb07d37231300e5cfdc1873990e0c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Dashboard Filters</sys_name>
         <sys_overrides/>
         <sys_package display_value="Dashboard Filters" source="x_24823_dbf">7ef1fcb537231300e5cfdc1873990e86</sys_package>
         <sys_policy/>
         <sys_scope display_value="Dashboard Filters">7ef1fcb537231300e5cfdc1873990e86</sys_scope>
-        <sys_update_name>sys_app_module_2bf174f537231300e5cfdc1873990e6a</sys_update_name>
+        <sys_update_name>sys_app_module_a6bcb07d37231300e5cfdc1873990e0c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-27 12:12:33</sys_updated_on>
+        <sys_updated_on>2018-07-27 12:59:26</sys_updated_on>
         <timeline_page/>
         <title>Dashboard Filters</title>
         <uncancelable>false</uncancelable>

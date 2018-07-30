@@ -8,7 +8,7 @@
         <hint/>
         <name>Dashboard Filters</name>
         <order/>
-        <roles>x_24823_dbf.user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-27 12:12:30</sys_created_on>
